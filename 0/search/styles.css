@@ -1,0 +1,54 @@
+html {
+  font-family: "Arial";
+}
+
+nav {
+  display: flex;
+  justify-content: right;
+  gap: 1rem;
+}
+
+.search {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.search>form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.search>form>input {
+  border-radius: 1rem;
+  border: 1px solid lightgray;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.search>form>button {
+  font-size: 0.7rem;
+  background-color: lightgray;
+  border: 1px solid lightgray;
+  border-radius: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.search>form>button:hover {
+  border: 1px solid black;
+}
+
+.search>.search__advanced>button {
+  padding: 0.7rem;
+  background-color: blue;
+  color: white;
+  align-self: flex-end;
+}
+
+.search>.search__advanced>input {
+  border-radius: 0.2rem;
+  min-width: 300px;
+}
