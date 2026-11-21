@@ -10,4 +10,6 @@
 
 ```bash
 git clone <url of git repository>
+git add <filename>
+git commit -m "<message>"
 ```
