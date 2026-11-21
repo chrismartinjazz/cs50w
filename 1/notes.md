@@ -64,4 +64,11 @@ git branch
 # create a new branch and switch to it
 git checkout -b style
 # switch back
-get checkout main
+git checkout main
+# merge style back into main
+git merge style
+git branch -d style
+```
+
+## Forking
+
