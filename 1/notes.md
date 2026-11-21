@@ -37,3 +37,29 @@ e = 5
 ```
 
 To address - remove all the markers, decide on the final version of the file. Remove blank lines, commit the changes.
+
+## Other Commands
+
+```bash
+git log
+
+git reset --hard <commit>
+get reset --hard origin/master
+```
+
+## Branching
+
+Working on multiple things simultaneously.
+
+<- main     <- HEAD
+<- feature
+
+Switch HEAD from one branch to another.
+
+Once satisfied, merge the changes together to the main branch.
+
+```bash
+# what branch am I on, what branches are there.
+git branch
+# create a new branch and switch to it
+git checkout -b style
