@@ -63,3 +63,5 @@ Once satisfied, merge the changes together to the main branch.
 git branch
 # create a new branch and switch to it
 git checkout -b style
+# switch back
+get checkout main
