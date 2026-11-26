@@ -1,0 +1,13 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+{{ title }}
+{% endblock %}
+
+{% block body %}
+
+{% for line in contents %}
+<p>{{ line }}</p>
+{% endfor %}
+
+{% endblock %}
